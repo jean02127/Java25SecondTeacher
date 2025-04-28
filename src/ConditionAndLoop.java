@@ -80,7 +80,7 @@ public class ConditionAndLoop {
         // };
         // System.out.println(results[0]);
 
-        // 用is else if 判斷 學生分數
+        // 用is...else if... 判斷 學生分數
         // 如果分數超過90分 印出(超棒)
         // 如果分數80~90分 印出(很好)
         // 如果分數60~80分 印出(好)
