@@ -119,7 +119,7 @@ public class LogicalOperation {
         
         // int a = 3;
         // int b = 5;
-        // boolean and = (a == 3) || (b == 5);
+        // boolean and = (a == 3) && (b == 5);
         // System.out.println(and);
 
         // boolean and = (a < b) && (b > a);
