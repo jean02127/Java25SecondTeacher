@@ -15,8 +15,9 @@ public class BasicDeclare {
          *
          * String:  文字, 多個字元, 雙引號
          *
-         * boolean: 布林, true/false
+         * boolean: 布林, true=1/false=0
          */
+
         // int age = 25;
         // System.out.println(age);
 
@@ -45,8 +46,14 @@ public class BasicDeclare {
         // System.out.println(bingo[5]);
         // System.out.println(bingo[2]);
 
+        // float[] weight3 = {44.9F, 88.9F, 57.2F};
+        
+        // boolean[] b1 = {true, false};
+
         // String[] students = {"A1", "A2", "A3"};
         // System.out.println(students[1]);
 
+        // String[] classRooms = {"教室A", "教室B"};
+        // System.out.println(classRooms[0]);
     }
 }
