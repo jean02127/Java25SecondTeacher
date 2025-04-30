@@ -1,3 +1,4 @@
+package lesson1;
 // 課間練習1(不使用建構子)
 // 類別
 public class Person {

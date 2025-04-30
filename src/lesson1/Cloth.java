@@ -1,3 +1,4 @@
+package lesson1;
 // 課間練習2
 // 類別
 public class Cloth {
