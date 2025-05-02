@@ -1,5 +1,8 @@
 package lesson1;
 public class Bank {
+    /* 
+     * private(私有)，只能在此類別作使用
+     */
     private String account;
     private int balance1 = 0;
 

@@ -115,19 +115,35 @@ public class DemoClass {
 
         /*
          * 課程練習: 請命名一個類別Student
-         * 兩個私有屬性: name, score
-         * 請用 getter setter 存取 name 跟 score
-         * setScore 內要檢查，輸入的score需為 0 ~ 100 之間
+         * 兩個私有屬性: score1, score2, teacherAccount
+         * 請用 getter setter 存取 score1 跟 score2
+         * setScore1 setScore2 內要檢查 teacherAccount是否為建構子時候的輸入老師帳號
+         * 且輸入的score需為 0 ~ 100 之間 才能寫入
          * 不在此範圍的需跳出回應 "分數需在 0 ~ 100 之間"
+         * getScore1 getScore2 內要檢查 teacherAccount是否為建構子時候的輸入老師帳號 才回傳score
+         * 非老師帳號 可印出"老師帳號錯誤"且回傳-1
          */
 
-        Student stu1 = new Student();
-        stu1.setName("jean");
-        stu1.setScore(101);
-        System.out.println(stu1.getName() + " 分數: " + stu1.getScore());
+        Student s1 = new Student("teacher1");
+        // 假設老師帳號輸入錯誤 (score1)
+        s1.setScore1("teacher12", 55);
+        int score11 = s1.getScore1("teacher1");
+        System.out.println("score1:" + score11);
 
-        stu1.setScore(80);
-        System.out.println(stu1.getName() + " 修改成功之分數: " + stu1.getScore());
+        // 老師帳號輸入正確 (score1)
+        s1.setScore1("teacher1", 55);
+        int score12 = s1.getScore1("teacher1");
+        System.out.println("score1:" + score12);
+
+        // 老師帳號輸入正確 但是分數超過 0 ~ 100 (score2)
+        s1.setScore2("teacher1", 101);
+        int score21 = s1.getScore2("teacher1");
+        System.out.println("score2:" + score21);
+
+        // 老師帳號輸入正確 (score2)
+        s1.setScore2("teacher1", 66);
+        int score22 = s1.getScore2("teacher1");
+        System.out.println("score2:" + score22);
 
 
         /*
