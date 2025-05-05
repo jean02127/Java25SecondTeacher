@@ -1,7 +1,7 @@
 package lesson2;
 
-import basic2.Test3;
-import lesson2.area.*;
+//import basic2.Test3;
+//import lesson2.area.*;
 
 public class Demo {
     public static void main(String[] args) {
@@ -35,14 +35,14 @@ public class Demo {
          * import後 可直接呼叫類別名稱
          */
         //Test1 test1 = new Test1();
-        Test2 test2 = new Test2();
+        //Test2 test2 = new Test2();
 
         /*
          * 在不同資料夾下，需要打出”絕對位置”來呼叫
          */
-        lesson1.area.Test1 test11 = new lesson1.area.Test1();
-        lesson2.area.Test1 test21 = new lesson2.area.Test1();
+        //lesson1.area.Test1 test11 = new lesson1.area.Test1();
+        //lesson2.area.Test1 test21 = new lesson2.area.Test1();
 
-        basic2.Test3 tt3 = new Test3();
+        //basic2.Test3 tt3 = new Test3();
     }
 }

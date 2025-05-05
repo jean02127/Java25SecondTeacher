@@ -15,6 +15,7 @@ public class DemoClass {
 
         new Car("003", "yellow").showCarInfo();
 
+        System.out.println("=========================================");
 
         /*
          * 課間練習1(不使用建構子)
@@ -29,6 +30,7 @@ public class DemoClass {
         p3.showName();
         p3.showAge();
 
+        System.out.println("=========================================");
 
         /*
          * 課間練習2
@@ -61,6 +63,7 @@ public class DemoClass {
         //  c1.showColor();
         //  c1.showSize();
 
+        System.out.println("=========================================");
 
         /*
          * 封裝練習 Getter * Setter
@@ -94,6 +97,7 @@ public class DemoClass {
         int myBalance4 = b1.getBalance1();
         System.out.println("您的餘額: " + myBalance4);
 
+        System.out.println("=========================================");
 
         /*
          * 課程練習: 請修改可以變更account
@@ -112,6 +116,7 @@ public class DemoClass {
         int myBalance6 = b1.getBalance1();
         System.out.println("您的餘額: " + myBalance6);
 
+        System.out.println("=========================================");
 
         /*
          * 課程練習: 請命名一個類別Student
@@ -145,6 +150,7 @@ public class DemoClass {
         int score22 = s1.getScore2("teacher1");
         System.out.println("score2:" + score22);
 
+        System.out.println("=========================================");
 
         /*
          * 多載介紹(Overload)
@@ -157,6 +163,7 @@ public class DemoClass {
         p1.show("Test2", "Test3");
         p1.show("Test4", 2);
 
+        System.out.println("=========================================");
         
         /*
          * 課堂練習:
@@ -170,7 +177,9 @@ public class DemoClass {
         a1.cal("長", 3, 2);
         a1.cal("正", 3, 3);
         a1.cal(9);
+        a1.cal();
 
+        System.out.println("=========================================");
 
         /*
          * 課堂練習:
@@ -180,13 +189,12 @@ public class DemoClass {
          * 最後在DemoClass 實作一個 Employee 物件 且印出 getName()
          */
 
-         lesson1.homework.traning.Employee e1 = new lesson1.homework.traning.Employee();
-         e1.setName("jean");
-         System.out.println(e1.getName());
+        lesson1.homework.traning.Employee e1 = new lesson1.homework.traning.Employee();
+        e1.setName("jean");
+        System.out.println(e1.getName());
 
-         lesson1.homework.traning.Employee e2 = new lesson1.homework.traning.Employee();
-         e2.setName("mark");
-         System.out.println(e2.getName());
-
+        lesson1.homework.traning.Employee e2 = new lesson1.homework.traning.Employee();
+        e2.setName("mark");
+        System.out.println(e2.getName());
     }
 }

@@ -23,4 +23,8 @@ public class Area {
             System.out.println("圓面積為: " + (r * r * 3.14));
         }
     }
+
+    public void cal() {
+        System.out.println("無任何面積輸入");
+    }
 }
